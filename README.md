@@ -23,7 +23,8 @@
 
 
 ```
-bash <(curl https://raw.githubusercontent.com/ipmartnetwork/iPmart/main/mux.sh)
+bash <(curl https://raw.githubusercontent.com/ahmteam/waterwall/main/mux.sh)
+
 
 ```
 
