@@ -220,7 +220,7 @@ EOF
         echo -e "${Cyan}You chose Iran.${NC}"
         read -p "enter Kharej Ipv4: " ip_remote
         read -p "Enter the SNI (default: zula.ir): " input_sni
-        HOSTNAME=${input_sni:-ipmart.shop}
+        HOSTNAME=${input_sni:-zula.ir}
         cat > config.json << EOF
 {
     "name": "reverse_reality_grpc_hd_multiport_server",
@@ -328,7 +328,7 @@ EOF
         echo -e "${Purple}You chose Kharej.${NC}"
         read -p "enter Iran Ip: " ip_remote
         read -p "Enter the SNI (default: zula.ir): " input_sni
-        HOSTNAME=${input_sni:-ipmart.shop}
+        HOSTNAME=${input_sni:-zula.ir}
         cat > config.json << EOF
 {
     "name": "reverse_reality_grpc_client_hd_multiport_client",
